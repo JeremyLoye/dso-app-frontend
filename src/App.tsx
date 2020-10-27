@@ -8,7 +8,7 @@ import appTheme from './theme/globalTheme';
 
 // TODO: extract to env
 const httpLink = createHttpLink({
-  uri: 'https://dso-app-backend.et.r.appspot.com/graphql',
+  uri: 'https://dso-app-backend.herokuapp.com/graphql',
   credentials: 'include'
 });
 
